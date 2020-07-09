@@ -1,4 +1,4 @@
-void ft_putchar(char c):
+void ft_putchar(char c);
 
 void ft_print_digits(char a, char b, char c)
 {
