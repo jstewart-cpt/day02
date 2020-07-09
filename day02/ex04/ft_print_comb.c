@@ -1,8 +1,5 @@
-#include <unistd.h>
-void ft_putchar(char c)
-{
-    write(1,&c,1);
-}
+void ft_putchar(char c):
+
 void ft_print_digits(char a, char b, char c)
 {
     ft_putchar(a);
@@ -34,9 +31,4 @@ void ft_print_comb(void)
         b='0';
         a++;
     }
-}
-int main(void)
-{
-    ft_print_comb();
-    return(0);
 }
