@@ -16,8 +16,3 @@ void ft_print_alphabet(void)
         alphabet_letter_a++;
     }
 }
-int main(void)
-{
-    ft_print_alphabet();
-    return(0);
-}
